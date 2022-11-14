@@ -14,17 +14,17 @@ export const Navbar = () => {
             <Link href={'https://www.instagram.com/choi.toronto/'} isExternal>
               <IconButton aria-label='Instagram' icon={<BsInstagram/>} isRound={true} fontSize='20px' bgColor={'#382F5C'} color={'white'}/>
             </Link>
-            <Link href={'https://www.facebook.com/choirestaurantto'}>
+            <Link href={'https://www.facebook.com/choirestaurantto'} isExternal>
               <IconButton aria-label='Facebook' icon={<BsFacebook/>} isRound={true} fontSize='20px' bgColor={'#382F5C'}  color={'white'}/>
             </Link>
-            <Link href={'shorturl.at/bcoBU'}> 
+            <Link href={'shorturl.at/bcoBU'} isExternal> 
               <IconButton aria-label='UberEats' icon={<SiUbereats/>} isRound={true} fontSize='20px' bgColor={'#382F5C'}  color={'white'}/>
             </Link>
-            <Link href={'shorturl.at/axAI5'}> 
+            <Link href={'shorturl.at/axAI5'} isExternal> 
               <IconButton aria-label='Doordash' icon={<SiDoordash/>} isRound={true} fontSize='20px' bgColor={'#382F5C'}  color={'white'}/>
             </Link>
-            <Link href={'https://www.skipthedishes.com/choi-vietnamese-street-eats'}> 
-              <IconButton aria-label='Doordash' icon={<Skipthedish/>} isRound={true} fontSize='20px' bgColor={'#382F5C'}  color={'white'}/>
+            <Link href={'https://www.skipthedishes.com/choi-vietnamese-street-eats'} isExternal> 
+              <IconButton aria-label='SkiptheDish' icon={<Skipthedish/>} isRound={true} fontSize='20px' bgColor={'#382F5C'}  color={'white'}/>
             </Link>
         </HStack>
     </Container>
