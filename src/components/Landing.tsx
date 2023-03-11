@@ -21,8 +21,8 @@ export const Landing = () => {
 
     return (
         <Container maxWidth={{base:'container.sm', md:'container.lg'}} marginY={'1em'} centerContent >
-            <Text textAlign={'center'} fontSize={'4xl'} maxWidth={'35ch'}><b>We share our fond memories of the Vietnamese streets, in food language</b></Text>
-            <Stack marginY={'1em'} direction={{base:'column', md:'row'}} spacing={'20px'}>
+            <Text textAlign={'center'} fontSize={'4xl'} maxWidth={'35ch'} color={'black'}><b>We share our fond memories of the Vietnamese streets, in food language</b></Text>
+            <Stack marginY={'1em'} direction={{base:'column', md:'row'}} spacing={'20px'} color={'black'}>
                 <Box display={'flex'} alignItems={'center'} flexDirection={{base:'column', md:'row'}}>
                     <Icon as={MdDeliveryDining} fontSize={'6xl'} marginRight={{ base: 'none',md:'0.5em'}}/>
                     <Text maxWidth={'30ch'} textAlign={'center'} >Delivery on UberEats, SkipTheDish, DoorDash</Text>
@@ -38,7 +38,7 @@ export const Landing = () => {
             </Stack>   
             <Box display={'flex'} marginY={'1em'} flexDirection={{base:'column-reverse', md:'row'}}>
 
-                <Box flexDirection={'column'} flexWrap={'wrap'} marginX={'1em'}>
+                <Box flexDirection={'column'} flexWrap={'wrap'} marginX={'1em'} color={'black'}>
                     <Text fontSize={'6xl'} textAlign={'center'} >Our Story</Text>
                     <Text my={'0.5em'} textAlign={'center'} maxWidth={{base:'none',md:'35ch'}}>
                         We’re a group of 4 lost individuals with different occupations. Still, when we came together, we realized we all have something in common, <i>our love for Vietnamese food,</i> especially <b>Vietnamese street food.</b>

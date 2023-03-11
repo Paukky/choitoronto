@@ -13,7 +13,7 @@ import {
 export const App = () => (
 
   <ChakraProvider theme={theme}>
-    <Image src={Background} zIndex={-1} position={'absolute'} sx={{backgroundSize: 'cover'}} height={'120vh'} width={'100vw'}/>
+    <Image src={Background} zIndex={-1} position={'absolute'} sx={{backgroundSize: 'cover'}} height={'175vh'} width={'100vw'}/>
     <Router>
       <Navbar/> 
       <Routes>
