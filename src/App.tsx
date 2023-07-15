@@ -1,5 +1,5 @@
 import * as React from "react"
-import {ChakraProvider,theme,Image} from "@chakra-ui/react"
+import {ChakraProvider,theme,Image,Box} from "@chakra-ui/react"
 import { Navbar } from "./layout/Navbar"
 import { Landing } from "./components/Landing"
 import { Menu } from "./components/Menu"
@@ -13,13 +13,14 @@ import {
 export const App = () => (
 
   <ChakraProvider theme={theme}>
-    <Image src={Background} zIndex={-1} position={'absolute'} sx={{backgroundSize: 'cover'}} height={'175vh'} width={'100vw'}/>
-    <Router>
-      <Navbar/> 
-      <Routes>
-        <Route path="/" element={<Landing/>}/>
-        <Route path="/menu" element={<Menu/>}/>
-      </Routes>
-    </Router>
+    <Box w='100%' h='120vh' bgColor={'white'}> 
+      <Router>
+        <Navbar/> 
+        <Routes>
+          <Route path="/" element={<Landing/>}/>
+          <Route path="/menu" element={<Menu/>}/>
+        </Routes>
+      </Router>
+    </Box>
   </ChakraProvider>
 )
