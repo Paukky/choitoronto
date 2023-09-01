@@ -22,7 +22,7 @@ export const Footer = () => {
         </Container>
         <Container textAlign={'center'} color={'#fff4c8'}>
             <Box display={'flex'} flexDir={'column'} alignItems={'center'}>
-                <Image src={Map}/>
+                <Image src={Map} maxHeight={'30vh'}/>
                 <Text>633 Silver Star Blvd Unit #121</Text>
                 <Text>Scarborough, ON M1V 5N1</Text>
             </Box>
