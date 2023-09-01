@@ -45,7 +45,6 @@ export const Landing = () => {
                     </Text>
                     <Text my={'0.5em'} textAlign={'center'} maxWidth={{base:'none',md:'35ch'}}>
                         Over the years, Pho has always been everyone’s #1 choice when we speak of Vietnamese food. We’re not satisfied yet.<b> We want to introduce you to more specialties, cultural desserts, snacks and other appetizers that have been overlooked.</b>
-                        
                     </Text>
                     <Box my={'1em'} display={'flex'} justifyContent={'center'}>
                                           
