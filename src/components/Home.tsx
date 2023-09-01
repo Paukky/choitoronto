@@ -31,7 +31,7 @@ export const Home = () => {
                   <IconButton aria-label='SkiptheDish' icon={<Skipthedish/>} isRound={true} fontSize='20px' bgColor={'#382F5C'}  color={'white'}/>
                 </Link>
             </HStack>
-            <Text fontSize={"1.5rem"} fontStyle={'italic'}  textAlign={'center'}><b>"We share our fond memories of the Vietnamese streets, in food language"</b></Text>
+            <Text fontSize={"1.5rem"} fontStyle={'italic'}  textAlign={'center'} color={'white'}><b>"We share our fond memories of the Vietnamese streets, in food language"</b></Text>
         </Container>       
         <Spacer/>
     </Box>
